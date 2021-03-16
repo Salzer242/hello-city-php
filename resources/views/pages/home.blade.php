@@ -3,7 +3,7 @@
 
 
 @section('content')
-       <img src="/images/1.png" alt="Dreezy">
+       <img src="{{ asset('images/Congo.jpg') }}" alt="Drapeau">
        <h1>Hello from Senegal !</h1>
 
        <p>It's currenty {{ date('H:i A') }}</p>
